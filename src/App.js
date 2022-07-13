@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Book from './Book';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Book name="React JS for beginners" year="2018" price='1000'>
+        t2t
+      </Book>
+      <Book name="angular for beginners" year="2019" price='1100' />
+      <Book name="Vue JS for beginners" year="2020" price='1200' />
+      </>
+      );
 }
 
 export default App;
