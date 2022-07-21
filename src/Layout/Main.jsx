@@ -1,4 +1,3 @@
-// import logo from "../logo512.png";
 import React from "react";
 
 class Main extends React.Component {
