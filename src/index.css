@@ -14,4 +14,33 @@ nav {
 .content {
   min-height: calc(100vh - 70px - 64px);
   padding: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-right: 0;
+}
+
+.row {
+  display: flex;
+  margin: 0;
+}
+
+.card .card-title {
+  font-size: 25px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: grey;
+}
+
+.card {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.card-box {
+  padding: 20px;
 }
