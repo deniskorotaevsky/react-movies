@@ -1,6 +1,6 @@
 import { Footer } from "./Layout/Footer";
 import { Header } from "./Layout/Header";
-import  Main  from "./Layout/Main";
+import { Main } from "./Layout/Main";
 
 const App = () => {
   return (
@@ -9,9 +9,7 @@ const App = () => {
       <Main />
       <Footer />
     </>
-
   );
-
 }
 
 export default App;
